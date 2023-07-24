@@ -14,7 +14,7 @@ def matrix_input():
     elements = int(input("Enter number of elements in each row: "))
 
     if rows != elements:
-        return ValueError("No. of rows is not equal to no. of columns")
+        return ValueError("No. of rows is not equal to no. of elements in the row")
 
     matrix = []
     for i in range(rows):
