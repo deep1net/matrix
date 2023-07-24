@@ -11,9 +11,9 @@ def rotate(matrix, n):
 
 def matrix_input():
     rows = int(input("Enter number of rows: "))
-    columns = int(input("Enter number of columns: "))
+    elements = int(input("Enter number of elements in each row: "))
 
-    if rows != columns:
+    if rows != elements:
         return ValueError("No. of rows is not equal to no. of columns")
 
     matrix = []
